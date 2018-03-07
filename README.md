@@ -5,21 +5,20 @@ This is a Hello World app using python3 and tensorflow for google app engine fle
 1. Clone this repo.
 
    ```
-   git clone httpsgithub.comGoogleCloudPlatformpython-docs-samples.git
-   cd python-docs-samplesappengineflexible
+   git clone https://github.com/armujahid/appengine-tensorflow-python3.git
+   cd appengine-tensorflow-python3
    ```
 
-2. Open a sample folder, create a virtualenv, install dependencies, and run the sample
+2. Create a virtualenv, install dependencies, and run the sample
 
    ```
-   cd hello-world
    virtualenv env
    source envbinactivate
    pip install -r requirements.txt
    python main.py
    ```
 
-3. Visit the application at [httplocalhost8080](httplocalhost8080).
+3. Visit the application at [http://localhost:8080](http://localhost:8080).
 
 
 ## Deploying
